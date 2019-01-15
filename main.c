@@ -17,12 +17,12 @@ int main()
         printf("qingshurugongnengbianhao\n");
         int code;
         scanf("%d",& code);
-        if (code == 1)
+        if(code == 1)
         {
             printf("qingshuruyaotianjiademinganzifu\n");
             char m;
-            scanf("%c,&m");
-            scanf("%c,&m");
+            scanf("%c",&m);
+            scanf("%c",&m);
             arr[index] = m;
             index++;
             printf("tijiachenggong,dianjihuichejixu\n");
@@ -30,7 +30,7 @@ int main()
             scanf("%c",&x);
             scanf("%c",&x);
         }
-        if (code == 2)
+        if(code == 2)
         {
             printf("shanchuzuihouyigeminganzifu\n");
             index--;
@@ -39,10 +39,19 @@ int main()
             scanf("%c",&x);
             scanf("%c",&x);
         }
-        if (code == 3)
+        if(code == 3)
         {
+            printf("xianshisuoyouyijingtianjiademinganzifu\n");
+            
+            for(int i=0; i < index; i++){
+                printf("%c\n",arr[i]);
+            }
+            printf("dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
-        if (code == 4)
+        if(code == 4)
         {
         }
         if (code == 5)
